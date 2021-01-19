@@ -108,7 +108,7 @@ windows靶机的乱码问题解决,-rencode指定靶机的编码类型
 ```
 从受控靶机下载文件到本地，-rpath指定需要下载的文件地址，-ldir指定存放下载文件的本地路径
 ```shell
-./bsServer -a upload -rpath c:\\tmp.txt -ldir /tmp
+./bsServer -a download -rpath c:\\tmp.txt -ldir /tmp
 ```
 
 0x4. 参考
